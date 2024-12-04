@@ -1,0 +1,155 @@
+﻿.instagram-btn {
+    color: #ffffff !important; /* Ensures text color is bright white */
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+
+    .instagram-btn i {
+        margin-right: 10px;
+        color: #ffffff !important; /* Ensures icon color is bright white */
+    }
+
+    .instagram-btn:hover {
+        background: linear-gradient(45deg, #515BD4, #8134AF, #DD2A7B, #F58529);
+        transform: scale(1.05);
+    }
+
+
+
+.whatsapp-btn {
+    color: white !important;
+    background: linear-gradient(45deg, #25D366, #128C7E);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+
+    .whatsapp-btn i {
+        margin-right: 10px;
+        color: white !important;
+    }
+
+    .whatsapp-btn:hover {
+        background: linear-gradient(45deg, #128C7E, #25D366);
+        transform: scale(1.05);
+    }
+
+
+
+/*.appointment-btn {
+    color: white !important;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s;
+}
+
+    .appointment-btn:active {
+        animation: button-click 0.2s ease;
+    }
+
+@keyframes button-click {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.98);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.appointment-btn:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
+    transform: scale(1.02);
+}*/
+
+.appointment-btn {
+    color: white !important;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s;
+}
+
+    .appointment-btn:active {
+        animation: button-click 0.2s ease;
+    }
+
+@keyframes button-click {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.98);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.appointment-btn.clicked {
+    color: white !important;
+    background: linear-gradient(90deg, #28a745, #218838);
+    animation: button-clicked 0.5s ease-in-out;
+}
+
+@keyframes button-clicked {
+    0% {
+        background: linear-gradient(90deg, #6a11cb, #2575fc);
+    }
+
+    50% {
+        background: linear-gradient(90deg, #28a745, #218838);
+        transform: scale(1.02);
+    }
+
+    100% {
+        background: linear-gradient(90deg, #28a745, #218838);
+        transform: scale(1);
+    }
+}
+
+.appointment-btn:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
+    transform: scale(1.02);
+}
