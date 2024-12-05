@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "LifeMedicus",
   "resources": {
-    "hash": "sha256-yWxLVuuQqLmoyfXF421mnNtKA8B6QOV2YtAD93uyNvk=",
+    "hash": "sha256-QJ4H2qVDw+5v7JKHoUD7dQV26/yibzZElNINqJ25ZNA=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -18,7 +18,7 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "LifeMedicus.wasm": "sha256-iiFf8pQm3u7VUfuNKbzlzSLry0ZAHZ+wX6sEvAQsfIA=",
+      "LifeMedicus.wasm": "sha256-GKoyxbNMT9+zC8t0r48dQvifxzbwHQgoVMvkv+nh3oI=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-IW1QNBi7DZtOt218GVv95nxeOtOLUXHW792TKM73I6k=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-hL0FiJlAFWXAv5B1dl3w9BeOnPQsrQVaj4Sb4PMe5wM=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-jY+SsQvQxr5r/wCd7o7Sg1ZmamyxaubMvErr4Gg2qUU=",
