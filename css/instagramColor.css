@@ -1,6 +1,6 @@
-﻿/*.instagram-btn {
-    color: #ffffff !important;*/ /* Ensures text color is bright white */
-    /*background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+﻿.instagram-btn {
+    color: #ffffff !important; /* Ensures text color is bright white */
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
     border: none;
     border-radius: 50px;
     padding: 10px 20px;
@@ -16,8 +16,8 @@
 
     .instagram-btn i {
         margin-right: 10px;
-        color: #ffffff !important;*/ /* Ensures icon color is bright white */
-    /*}
+        color: #ffffff !important; /* Ensures icon color is bright white */
+    }
 
     .instagram-btn:hover {
         background: linear-gradient(45deg, #515BD4, #8134AF, #DD2A7B, #F58529);
@@ -50,7 +50,7 @@
     .whatsapp-btn:hover {
         background: linear-gradient(45deg, #128C7E, #25D366);
         transform: scale(1.05);
-    }*/
+    }
 
 
 
@@ -93,7 +93,7 @@
     transform: scale(1.02);
 }*/
 
-/*.appointment-btn {
+.appointment-btn {
     color: white !important;
     background: linear-gradient(90deg, #6a11cb, #2575fc);
     border: none;
@@ -153,87 +153,3 @@
     background: linear-gradient(90deg, #2575fc, #6a11cb);
     transform: scale(1.02);
 }
-
-
-
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.styled-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    transition: background-color 0.3s ease;
-}
-
-    .styled-button:hover {
-        background-color: #0056b3;
-    }
-
-.popup {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.popup-content {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 90%;
-    max-width: 500px;
-    animation: fadeIn 0.5s;
-}
-
-    .popup-content p {
-        margin: 0;
-    }
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-    .close:hover,
-    .close:focus {
-        color: black;
-        text-decoration: none;
-    }
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}*/
-
-
