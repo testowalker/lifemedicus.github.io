@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "LifeMedicus",
   "resources": {
-    "hash": "sha256-QJ4H2qVDw+5v7JKHoUD7dQV26/yibzZElNINqJ25ZNA=",
+    "hash": "sha256-52e3WlfHvBvEB1jIr3jOWZNH1GUPVk6wLrnEPKtp+zE=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -18,7 +18,7 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "LifeMedicus.wasm": "sha256-GKoyxbNMT9+zC8t0r48dQvifxzbwHQgoVMvkv+nh3oI=",
+      "LifeMedicus.wasm": "sha256-Y5Uu/ppKtnhnG91FK/OdLPC0xUxCHMDtE7G1VAx0TqQ=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-IW1QNBi7DZtOt218GVv95nxeOtOLUXHW792TKM73I6k=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-hL0FiJlAFWXAv5B1dl3w9BeOnPQsrQVaj4Sb4PMe5wM=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-jY+SsQvQxr5r/wCd7o7Sg1ZmamyxaubMvErr4Gg2qUU=",
@@ -72,7 +72,7 @@
       "System.Runtime.Numerics.wasm": "sha256-jHy/reQ5jQ8ojUMMF311/y3tYavTUafjHg4LWZsrhNc=",
       "System.Runtime.Serialization.Formatters.wasm": "sha256-hcnPwFr0z3GYb+pCjqDkP5Mu1sPw4INiQDHJ/hpLmpw=",
       "System.Runtime.Serialization.Primitives.wasm": "sha256-JGarhZwrdQToswEez6b/YQ3YLtX77Ug/irdS0GZjCQE=",
-      "System.Runtime.wasm": "sha256-TRCERrKRJ+ehoo1NuRl1qplHwNY1ul2gnv62B8HsIJ0=",
+      "System.Runtime.wasm": "sha256-RBlCaOdOSLMm44XctDir1lmw1xeLIl0YhEyPE3bCpKQ=",
       "System.Security.Cryptography.wasm": "sha256-fsNCp2RvP/1qnr6yFCAteJR34SpJTDLmiL+WsL/usKE=",
       "System.Text.Encoding.Extensions.wasm": "sha256-IpgHrdJhvxGIVJH7K2LWx+a0quomPmoyTAC338yAthc=",
       "System.Text.Encodings.Web.wasm": "sha256-8bGWqRgVH+mdpB+8p7f5fWm47T2FwtwPQ17GhM/E1qA=",
