@@ -1,0 +1,123 @@
+
+/* Base styles for the button */
+.appointment-btn {
+    background-color: #ff8c00; /* Orange color */
+    color: #fff; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Completely rounded sides */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    padding: 15px 20px; /* Padding for size */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 0 5px rgba(255, 140, 0, 0.4), 0 0 10px rgba(255, 140, 0, 0.4); /* Subtle initial glow effect */
+}
+
+/* Hover state */
+.appointment-btn:hover {
+    background-color: #e67e22; /* Darker shade for hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 0 10px rgba(255, 140, 0, 0.6), 0 0 15px rgba(255, 140, 0, 0.6), 0 0 20px rgba(255, 140, 0, 0.6); /* Subtle intensified glow on hover */
+}
+
+
+
+</style >
+<style >
+/* Base styles for the button */
+.appointmentPOP-btn {
+    background-color: #ff8c00; /* Orange color */
+    color: #fff; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    padding: 15px 20px; /* Padding for size */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hover state */
+.appointmentPOP-btn:hover {
+    background-color: #e67e22; /* Darker shade for hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+/* Clicked state */
+.appointmentPOP-btn.clicked {
+    background-color: #28a745; /* Green background when clicked */
+    cursor: default; /* Default cursor when clicked */
+    transform: scale(1); /* Reset transform */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Reset shadow */
+}
+.blur {
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+}
+
+/* The Popup (background) */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Add transition for smooth fade-in/out */
+}
+
+/* Popup Content */
+.popup-content {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    backdrop-filter: blur(10px); /* Apply blur effect to the background */
+    max-height: 90vh; /* Prevent it from being taller than the viewport */
+    overflow-y: auto; /* Add scroll if content overflows */
+    position: relative;
+    z-index: 4;
+}
+
+    .popup-content p {
+        margin: 0;
+    }
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10; /* Ensure it appears above other content */
+    top: 11px;
+    right: 0.5px;
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+    }
+
+
+/* Text styles within the popup */
+.popup-content p, .popup-content span, .popup-content div, .popup-content input, .popup-content textarea {
+    color: #333; /* Darker text color for better readability */
+    font-size: 16px; /* Adjust font size for readability */
+    font-weight: normal; /* Normal font weight */
+
+
+
+
