@@ -63,6 +63,7 @@
       "System.Web.HttpUtility.wasm": "sha256-OwGOCvRZnGt4ZkkRpYmDQLCFvybDHNWJQU91+Ow++qE="
     }
   },
+  "cacheBootResources": true,
   "debugLevel": 0,
   "linkerEnabled": true,
   "globalizationMode": "sharded",
