@@ -214,6 +214,6 @@
   });
 })(jQuery);
 
-$(document).ready(function(){
+/*$(document).ready(function(){
       $(".navbar-default").sticky({topSpacing:0});
-    });
+    });*/
